@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fav icon -->
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <!-- Main div -->
+    <div class="main">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="github.png" title="Logo"></a>
+            </div>
+        </header>
+        <div class="sign-in-content">
+            <Form class="sign-in-form">
+                <div class="form-header">
+                    <h1>Sign-in to World</h1>
+                </div>
+                <div class="form-error">
+                    <p id="notify">Unable to get profile information from Google</p>
+                </div>
+                <a class="g-btn" onclick="clickbtn()" href="#">
+                    <div class="btn-content">
+                        <img src="google.png">
+                        <p>Continue with Google</p>
+                    </div>
+                </a>
+                <Span class="sign-in-or">Or</Span>
+                <!-- inputs and login buttons -->
+                <input class="email-input" type="email" placeholder="Email">
+                <div style="height: 16px;"></div>
+                <input type="password" placeholder="Enter Password">
+                <div style="height: 42px;"></div>
+                <button class="log-in-btn">Log in</button>
+                <div style="height: 16px;"></div>
+                <!-- Footer of the form -->
+                <div class="form-footer">
+                    <div class="sign-in-link">
+                        <a href="#">Use single sign-in</a>
+                    </div>
+                    <div style="height: 16px;"></div>
+                    <div class="sign-in-link">
+                        <a href="#">Reset password</a>
+                    </div>
+                    <div style="height: 16px;"></div>
+                    <div class="sign-in-link">
+                        No Account?
+                        <a href="#">Use single sign-in</a>
+                    </div>
+                </div>
+            </Form>
+        </div>
+    </div> <!--End of main div -->
+    
+    <!--  external javascript file link -->
+    <script src="script.js"></script>
+</body>
+</html>
